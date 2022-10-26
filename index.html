@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>registration form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <table align="center">
+
+      <form action="display.html" >
+        <tr>
+          <th>Sign Up</th>
+        </tr>
+        <tr>
+          <td>First Name</td>
+          <td><input type="text" id="fname" value="" placeholder="Enter First Name..."></td>
+        </tr>
+        <tr>
+          <td>Last Name</td>
+          <td><input type="text" id="lname" value="" placeholder="Enter Last Name..."></td>
+        </tr>
+        <tr>
+          <td>Screen Name</td>
+          <td><input type="text" id="sname" value="" placeholder="Enter Screen Name..."></td>
+        </tr>
+        <tr>
+          <td>Date of Birth</td>
+          <td>
+            <select class="" name="">
+              <option value="">May</option>
+              <option value="">June</option>
+              <option value="">July</option>
+            </select>
+            <select class="" name="">
+              <option value="">5</option>
+              <option value="">6</option>
+              <option value="">7</option>
+            </select>
+            <select class="" name="">
+              <option value="">1985</option>
+              <option value="">1990</option>
+              <option value="">2000</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td><input type="radio" name="gender" value="" id="gen">Male &nbsp;&nbsp; <input type="radio" name="gender">Female
+          </td>
+        </tr>
+        <tr>
+          <td>Country</td>
+          <td>
+            <select class="" name="">
+              <option value="">USA</option>
+              <option value="">KENYA</option>
+              <option value="">INDIA</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>E-mail</td>
+          <td><input type="email" id="em" value="" placeholder="Enter E-mail..."></td>
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td><input type="number" id="ph" value="" placeholder="Enter Phone..."></td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td><input type="password" id="pass" value=""></td>
+        </tr>
+        <tr>
+          <td>Confirm Password</td>
+          <td><input type="password" id="cpass" value=""></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="checkbox" name="" value="">I agree to the Terms of Use</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>  <input type="submit" id="sub" value="Submit">
+            <input type="reset" id="can" value="cancel"></td>
+        </tr>
+
+      </form>
+    </table>
+    <script type="text/javascript">
+      function validatephone()
+      {
+        var no,text;
+        no=document.getElementById("ph").value;
+        if{
+          length(no)<10 then
+          message(“must be 10 digit no”);
+           end if;
+         }
+      }
+
+    </script>
+  </body>
+</html>
